@@ -9,9 +9,7 @@ tests/
 .git/
 .gitignore
 .gitattributes
-.prettierrc
 .oxfmtrc.json
-.prettierignore
 bun.lock
 bun.lockb
 tsconfig.json
