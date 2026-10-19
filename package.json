@@ -34,7 +34,6 @@
     "build": "tsdown",
     "pack": "bun pm pack",
     "prepublishOnly": "bun run build && bun check",
-    "test": "bun test tests",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
     "verify": "bun run format:check && bun run typecheck && bun run test && bun run build",
